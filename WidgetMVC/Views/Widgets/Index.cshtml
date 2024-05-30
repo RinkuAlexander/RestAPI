@@ -1,0 +1,40 @@
+﻿@model IEnumerable<WidgetAPI.Models.Widget>
+
+@{
+    ViewBag.Title = "Widgets";
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Manufacturer Name</th>
+        <th>Manufacturer Address</th>
+        <th>Manufacturer Founded Date</th>
+    </tr>
+
+    @foreach (var item in Model) 
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer.Founded)
+            </td>
+        </tr>
+    }
+
+</table>

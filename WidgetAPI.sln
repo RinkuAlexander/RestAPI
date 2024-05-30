@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetAPI", "WidgetAPI\WidgetAPI.csproj", "{377F871A-16C6-4587-B14A-B029C5EB2D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetMVC", "WidgetMVC\WidgetMVC.csproj", "{50ACE39E-492D-4118-874C-B17FFCEA1C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{377F871A-16C6-4587-B14A-B029C5EB2D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377F871A-16C6-4587-B14A-B029C5EB2D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377F871A-16C6-4587-B14A-B029C5EB2D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377F871A-16C6-4587-B14A-B029C5EB2D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50ACE39E-492D-4118-874C-B17FFCEA1C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50ACE39E-492D-4118-874C-B17FFCEA1C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50ACE39E-492D-4118-874C-B17FFCEA1C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50ACE39E-492D-4118-874C-B17FFCEA1C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1C86FC5-896D-4228-85A4-5488603F673C}
+	EndGlobalSection
+EndGlobal
