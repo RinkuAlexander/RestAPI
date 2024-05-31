@@ -7,8 +7,8 @@ namespace WidgetAPI.Models
 {
     public class Manufacturer
     {
-        public string Name;
-        public string Address;
-        public DateTime Founded;
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public DateTime Founded { get; set; }
     }
 }

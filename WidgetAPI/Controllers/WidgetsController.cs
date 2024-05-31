@@ -17,6 +17,7 @@ namespace WidgetAPI.Controllers
         };
 
         [HttpGet]
+        [Route("api/widgets/{id:int:min(0)}")]
         public IHttpActionResult GetWidgetById([FromUri] int id)
         {
             if (!_widgets.Any(x => x.Id == id))

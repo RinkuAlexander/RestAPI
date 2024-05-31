@@ -34,7 +34,14 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Manufacturer.Founded)
             </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id })|
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
         </tr>
     }
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
 
 </table>
